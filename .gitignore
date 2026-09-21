@@ -1,0 +1,12 @@
+# local databases (created on first run, never commit)
+*.db
+*.db-journal
+
+# secrets and personal config
+.env
+icp.yaml
+icp.json
+
+# python noise
+__pycache__/
+*.pyc
