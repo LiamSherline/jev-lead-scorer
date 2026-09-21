@@ -1,0 +1,30 @@
+# icp.yaml - describe YOUR ideal customer profile (EXAMPLE)
+#
+# Copy this file to icp.yaml (or icp.json, see icp.example.json) and make it
+# yours. The Jev questions, state context, and outreach angles all read from
+# here, so the same code scores leads for any business.
+#
+# The values below are a real-world example. If you ship no icp.yaml, the
+# code falls back to a built-in demo ICP (Demo Coffee Roasters).
+
+business_name: "Latch the Company"
+
+offering: "AI phone answering + websites that take orders for restaurants"
+
+icp_context: |
+  Latch ICP: East TN restaurants, bakeries, food trucks, cafes with no website
+  OR no online ordering. Owner required. Permanently exclude catering companies
+  that already have a website. Pricing: $500 setup + $299/mo.
+
+research_context: |
+  Latch sells AI phone answering + websites that take orders to East TN
+  restaurants, bakeries, food trucks, and cafes. Ideal targets have NO website
+  or NO online ordering of their own. A DoorDash/UberEats listing is not their
+  own ordering. Permanently exclude catering companies that already have a
+  website.
+
+# Outreach angles Jev can choose from (key: description). Keep 2-4.
+angles:
+  proof_first: "lead with the client proof result"
+  phone_first: "lead with missed-calls / rush-hour phone pain"
+  website_teardown: "lead with the free-preview website offer"
